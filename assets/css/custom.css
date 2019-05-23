@@ -9,18 +9,7 @@
     height: 150px; 
     object-fit: cover; /*redimensionne les images sans les pixeliser */
 }
-
-
-#custom-text {
-    overflow: hidden;
-    background: #fff;
-    border-radius: 2px;
-    margin-bottom: 1.5rem;
-    padding: 3.125rem;
-    text-align: center;
-  }
-
-img {
+.img {
 	border-style: none
 }
 
@@ -36,6 +25,9 @@ img {
 	background-color: #515151;
 	color: #fff;
 	border-radius: 30px;
-	padding: 20px;
+    padding: 20px;
 }
+#custom-text p {
+    color: #fff
 
+}
