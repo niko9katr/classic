@@ -1,0 +1,18 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+ .miniature{ 
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; /*redimensionne les images sans les pixeliser */
+}
+
+#custom-text {
+    overflow: hidden;
+    background: #fff;
+    border-radius: 2px;
+    margin-bottom: 1.5rem;
+    padding: 3.125rem;
+    text-align: center;
+  }
